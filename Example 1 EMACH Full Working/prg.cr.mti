@@ -1,0 +1,577 @@
+E:/Dropbox/w/fixed_pkg_c.vhdl {2 {vcom -work work -2002 -explicit E:/Dropbox/w/fixed_pkg_c.vhdl
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Compiling package fixed_pkg_c
+-- Loading package MATH_REAL
+-- Compiling package body fixed_pkg_c
+-- Loading package fixed_pkg_c
+** Warning: [3] E:/Dropbox/w/fixed_pkg_c.vhdl(1469): (vcom-1246) Range 0 downto 1 is null.
+
+** Warning: [3] E:/Dropbox/w/fixed_pkg_c.vhdl(1470): (vcom-1246) Range 0 downto 1 is null.
+
+** Warning: [3] E:/Dropbox/w/fixed_pkg_c.vhdl(1471): (vcom-1246) Range 0 downto 1 is null.
+
+** Warning: [3] E:/Dropbox/w/fixed_pkg_c.vhdl(6887): (vcom-1246) Range 2 to 1 is null.
+
+
+} {} {}} E:/Dropbox/w/stim_main.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/stim_main.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Loading package fixed_pkg_c
+-- Compiling entity stim_main
+-- Compiling architecture arc_stim_main of stim_main
+
+} {} {}} E:/Dropbox/w/reg_hold_address.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/reg_hold_address.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity reg_hold_mem_address
+-- Compiling architecture arc_reg_hold_mem_address of reg_hold_mem_address
+
+} {} {}} E:/Dropbox/w/mux_counter.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/mux_counter.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity mux_counter
+-- Compiling architecture arc_mux_counter of mux_counter
+
+} {} {}} E:/Dropbox/w/main.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/main.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Loading package functions
+-- Compiling entity main
+-- Compiling architecture arc_main of main
+
+} {} {}} E:/Dropbox/w/functions_body.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/functions_body.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Loading package fixed_pkg_c
+-- Compiling package body functions
+-- Loading package functions
+
+} {} {}} E:/Dropbox/w/fixed_alg_pkg-body_real.vhdl {2 {vcom -work work -2002 -explicit E:/Dropbox/w/fixed_alg_pkg-body_real.vhdl
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MATH_REAL
+-- Loading package instance fixed_pkg
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Compiling package body fixed_alg_pkg
+-- Loading package fixed_alg_pkg
+** Warning: [3] E:/Dropbox/w/fixed_alg_pkg-body_real.vhdl(27): (vcom-1246) Range 0 downto 1 is null.
+
+** Warning: [3] E:/Dropbox/w/fixed_alg_pkg-body_real.vhdl(28): (vcom-1246) Range 0 downto 1 is null.
+
+
+} {} {}} E:/Dropbox/w/sub2ind.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/sub2ind.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity sub2ind
+-- Compiling architecture arc_sub2ind of sub2ind
+
+} {} {}} E:/Dropbox/w/mux_done.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/mux_done.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity mux_done
+-- Compiling architecture arc_mux_done of mux_done
+
+} {} {}} E:/Dropbox/w/counter_imem.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/counter_imem.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity counter_imem
+-- Compiling architecture arc_counter_imem of counter_imem
+
+} {} {}} E:/Dropbox/w/definitions.vhdl {1 {vcom -work work -2002 -explicit E:/Dropbox/w/definitions.vhdl
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling package definitions
+
+} {} {}} E:/Dropbox/w/fixed_alg_pkg.vhdl {1 {vcom -work work -2002 -explicit E:/Dropbox/w/fixed_alg_pkg.vhdl
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package fixed_float_types
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Compiling package fixed_alg_pkg
+
+} {} {}} E:/Dropbox/w/counter.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/counter.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity counter
+-- Compiling architecture arc_counter of counter
+
+} {} {}} E:/Dropbox/w/imem.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/imem.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Loading package std_logic_textio
+-- Compiling entity imem
+-- Compiling architecture arcimem of imem
+
+} {} {}} E:/Dropbox/w/mux_tc.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/mux_tc.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity mux_tc
+-- Compiling architecture arc_mux_tc of mux_tc
+
+} {} {}} E:/Dropbox/w/test.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/test.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Loading package fixed_pkg_c
+-- Compiling entity test
+-- Compiling architecture arc_test of test
+
+} {} {}} E:/Dropbox/w/reg_hold_jump_adress.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/reg_hold_jump_adress.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity reg_hold_jump_address
+-- Compiling architecture arc_reg_hold_jump_address of reg_hold_jump_address
+
+} {} {}} E:/Dropbox/w/control.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/control.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity control
+-- Compiling architecture arc_control of control
+
+} {} {}} E:/Dropbox/w/functions.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/functions.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling package functions
+
+} {} {}} E:/Dropbox/w/mem_manager.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/mem_manager.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Loading package std_logic_textio
+-- Compiling entity mem_manager
+-- Compiling architecture arc_mem_manager of mem_manager
+
+} {} {}} E:/Dropbox/w/memory.vhd {2 {vcom -work work -2002 -explicit E:/Dropbox/w/memory.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Loading package std_logic_textio
+-- Compiling entity memory
+-- Compiling architecture arc_memory of memory
+** Warning: E:/Dropbox/w/memory.vhd(37): (vcom-1194) FILE declaration was written using VHDL 1987 syntax.
+
+
+} {} {}} E:/Dropbox/w/mux_imem.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/mux_imem.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity mux_imem
+-- Compiling architecture arc_mux_imem of mux_imem
+
+} {} {}} E:/Dropbox/w/alu.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/alu.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Loading package functions
+-- Loading package fixed_pkg_c
+-- Compiling entity alu
+-- Compiling architecture arc_alu of alu
+
+} {} {}} E:/Dropbox/w/mux_data.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/mux_data.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity mux_data
+-- Compiling architecture arc_mux_data of mux_data
+
+} {} {}} E:/Dropbox/w/CLOCK.VHD {1 {vcom -work work -2002 -explicit E:/Dropbox/w/CLOCK.VHD
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity clock
+-- Compiling architecture behaviour of clock
+
+} {} {}} E:/Dropbox/w/mux_mem_address.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/mux_mem_address.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity mux_mem_address
+-- Compiling architecture arc_mux_mem_address of mux_mem_address
+
+} {} {}} E:/Dropbox/w/mux_mem_mgr.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/mux_mem_mgr.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity mux_mem_mgr
+-- Compiling architecture arc_mux_mem_mgr of mux_mem_mgr
+
+} {} {}} E:/Dropbox/w/reg_hold_data.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/reg_hold_data.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity reg_hold_data
+-- Compiling architecture arc_reg_hold_data of reg_hold_data
+
+} {} {}} E:/Dropbox/w/mux_base_addr.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/mux_base_addr.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity mux_base_address
+-- Compiling architecture arc_mux_base_address of mux_base_address
+
+} {} {}} E:/Dropbox/w/reg.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/reg.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity reg
+-- Compiling architecture arc_reg of reg
+
+} {} {}} E:/Dropbox/w/reg_lsr.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/reg_lsr.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity reg_lsr
+-- Compiling architecture arc_reg_lsr of reg_lsr
+
+} {} {}} E:/Dropbox/w/reg_mux_imem.vhd {1 {vcom -work work -2002 -explicit E:/Dropbox/w/reg_mux_imem.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity reg_mux_imem
+-- Compiling architecture arc_reg_mux_imem of reg_mux_imem
+
+} {} {}}

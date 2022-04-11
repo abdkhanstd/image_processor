@@ -1,0 +1,755 @@
+D:/Dropbox/prg/emach.vhd {2 {vcom -work work -2002 -explicit {D:\Dropbox\prg\emach.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling package emach
+** Warning: [9] D:\Dropbox\prg\emach.vhd(16): (vcom-1013) Initial value of "FFT_MARTRIX" depends on value of signal "M0".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(17): (vcom-1013) Initial value of "L_X" depends on value of signal "M2".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(18): (vcom-1013) Initial value of "L_Y" depends on value of signal "M3".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(19): (vcom-1013) Initial value of "IDM" depends on value of signal "M1".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(20): (vcom-1013) Initial value of "ti_1" depends on value of signal "M4".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(21): (vcom-1013) Initial value of "ti_2" depends on value of signal "M5".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(22): (vcom-1013) Initial value of "ti_3" depends on value of signal "M6".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(26): (vcom-1013) Initial value of "fft_ti_1" depends on value of signal "M7".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(27): (vcom-1013) Initial value of "fft_ti_2" depends on value of signal "M8".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(28): (vcom-1013) Initial value of "fft_ti_3" depends on value of signal "M9".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(31): (vcom-1013) Initial value of "fft2_ti_1" depends on value of signal "M4".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(32): (vcom-1013) Initial value of "fft2_ti_2" depends on value of signal "M5".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(33): (vcom-1013) Initial value of "fft2_ti_3" depends on value of signal "M6".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(38): (vcom-1013) Initial value of "SUM_FFT" depends on value of signal "M7".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(39): (vcom-1013) Initial value of "MEAN_FFT" depends on value of signal "M7".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(42): (vcom-1013) Initial value of "MEAN_FFT_Ti_diff" depends on value of signal "M8".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(44): (vcom-1013) Initial value of "ti_fft_diff_1" depends on value of signal "M9".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(45): (vcom-1013) Initial value of "ti_fft_diff_2" depends on value of signal "M0".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(46): (vcom-1013) Initial value of "ti_fft_diff_3" depends on value of signal "M8".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(49): (vcom-1013) Initial value of "ti_fft_diff_conj_1" depends on value of signal "M10".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(50): (vcom-1013) Initial value of "ti_fft_diff_conj_2" depends on value of signal "M11".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(51): (vcom-1013) Initial value of "ti_fft_diff_conj_3" depends on value of signal "M12".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(55): (vcom-1013) Initial value of "S_B_1" depends on value of signal "M9".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(56): (vcom-1013) Initial value of "S_B_2" depends on value of signal "M0".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(57): (vcom-1013) Initial value of "S_B_3" depends on value of signal "M8".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(60): (vcom-1013) Initial value of "SUM_S_B" depends on value of signal "M10".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(61): (vcom-1013) Initial value of "MEAN_S_B" depends on value of signal "M10".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(62): (vcom-1013) Initial value of "BETA_X_MEAN_FFT" depends on value of signal "M11".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(65): (vcom-1013) Initial value of "Y_1" depends on value of signal "M12".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(66): (vcom-1013) Initial value of "Y_2" depends on value of signal "M9".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(67): (vcom-1013) Initial value of "Y_3" depends on value of signal "M0".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(71): (vcom-1013) Initial value of "TP_Y_1" depends on value of signal "M11".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(72): (vcom-1013) Initial value of "TP_Y_2" depends on value of signal "M8".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(73): (vcom-1013) Initial value of "TP_Y_3" depends on value of signal "M4".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(75): (vcom-1013) Initial value of "Y" depends on value of signal "M13".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(76): (vcom-1013) Initial value of "Y_Transpose" depends on value of signal "M14".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(77): (vcom-1013) Initial value of "Y_X_Y" depends on value of signal "M12".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(79): (vcom-1013) Initial value of "eig_inp_a" depends on value of signal "M12".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(81): (vcom-1013) Initial value of "R_a" depends on value of signal "M12".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(84): (vcom-1013) Initial value of "Q_a" depends on value of signal "M9".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(88): (vcom-1013) Initial value of "CPY_Q_a" depends on value of signal "M2".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(89): (vcom-1013) Initial value of "eig_inp_a_cpy" depends on value of signal "M5".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(91): (vcom-1013) Initial value of "ID_a" depends on value of signal "M0".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(92): (vcom-1013) Initial value of "TP_ID_a" depends on value of signal "M6".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(94): (vcom-1013) Initial value of "V" depends on value of signal "M11".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(95): (vcom-1013) Initial value of "D" depends on value of signal "M7".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(97): (vcom-1013) Initial value of "Y_X_V" depends on value of signal "M14".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(98): (vcom-1013) Initial value of "D_Pow" depends on value of signal "M6".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(100): (vcom-1013) Initial value of "Phi" depends on value of signal "M15".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(104): (vcom-1013) Initial value of "TP_S_B_MEAN" depends on value of signal "M8".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(106): (vcom-1013) Initial value of "S_B_REPMAT" depends on value of signal "M16".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(108): (vcom-1013) Initial value of "S_inv_Phi" depends on value of signal "M17".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(111): (vcom-1013) Initial value of "TP_Phi" depends on value of signal "M19".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(113): (vcom-1013) Initial value of "D_X_PHI_TP" depends on value of signal "M18".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(115): (vcom-1013) Initial value of "Eigen_B" depends on value of signal "M12".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(117): (vcom-1013) Initial value of "CPY_V" depends on value of signal "M4".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(119): (vcom-1013) Initial value of "TP_V" depends on value of signal "M4".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(122): (vcom-1013) Initial value of "FILTER" depends on value of signal "M4".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(140): (vcom-1013) Initial value of "BETA" depends on value of signal "R0".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(141): (vcom-1013) Initial value of "Minus_One" depends on value of signal "R1".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(142): (vcom-1013) Initial value of "NEG_BETA" depends on value of signal "R2".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(143): (vcom-1013) Initial value of "ONE_minus_BETA" depends on value of signal "R3".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(144): (vcom-1013) Initial value of "I_M1" depends on value of signal "R9".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(145): (vcom-1013) Initial value of "MINUS_1BY2" depends on value of signal "R18".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(148): (vcom-1013) Initial value of "K" depends on value of signal "R3".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(149): (vcom-1013) Initial value of "K_End" depends on value of signal "R6".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(151): (vcom-1013) Initial value of "I" depends on value of signal "R4".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(152): (vcom-1013) Initial value of "I_END" depends on value of signal "R8".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(154): (vcom-1013) Initial value of "J" depends on value of signal "R5".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(155): (vcom-1013) Initial value of "J_End" depends on value of signal "R7".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(158): (vcom-1013) Initial value of "VAL_1" depends on value of signal "R10".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(159): (vcom-1013) Initial value of "VAL_2" depends on value of signal "R11".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(162): (vcom-1013) Initial value of "C" depends on value of signal "R12".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(163): (vcom-1013) Initial value of "S" depends on value of signal "R13".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(165): (vcom-1013) Initial value of "ADB" depends on value of signal "R14".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(166): (vcom-1013) Initial value of "ADBSQ" depends on value of signal "R19".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(167): (vcom-1013) Initial value of "ADBP1" depends on value of signal "R15".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(168): (vcom-1013) Initial value of "SQRT_ADBP1" depends on value of signal "R15".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(169): (vcom-1013) Initial value of "One_v" depends on value of signal "R16".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(171): (vcom-1013) Initial value of "Neg_S" depends on value of signal "R17".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(172): (vcom-1013) Initial value of "C_Zero" depends on value of signal "R20".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(174): (vcom-1013) Initial value of "FLAG_J" depends on value of signal "R21".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(179): (vcom-1013) Initial value of "K_START" depends on value of signal "R67".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(180): (vcom-1013) Initial value of "K_LAND" depends on value of signal "R66".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(184): (vcom-1013) Initial value of "J_START" depends on value of signal "R72".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(185): (vcom-1013) Initial value of "J_LAND" depends on value of signal "R71".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(187): (vcom-1013) Initial value of "I_START" depends on value of signal "R76".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(188): (vcom-1013) Initial value of "I_LAND" depends on value of signal "R75".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(191): (vcom-1013) Initial value of "B0" depends on value of signal "R87".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(192): (vcom-1013) Initial value of "AGB" depends on value of signal "R90".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(193): (vcom-1013) Initial value of "ALB" depends on value of signal "R98".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(195): (vcom-1013) Initial value of "Normal_a" depends on value of signal "R106".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(198): (vcom-1013) Initial value of "reuse" depends on value of signal "R61".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(201): (vcom-1013) Initial value of "Normal_b" depends on value of signal "R155".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(208): (vcom-1013) Initial value of "TR" depends on value of signal "R3".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(209): (vcom-1013) Initial value of "TC" depends on value of signal "R3".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(212): (vcom-1013) Initial value of "RC" depends on value of signal "R9".
+
+** Warning: [9] D:\Dropbox\prg\emach.vhd(213): (vcom-1013) Initial value of "NT" depends on value of signal "R3".
+
+
+} {} {}} D:/Dropbox/prg/reg_mux_imem.vhd {1 {vcom -work work -2002 -explicit D:/Dropbox/prg/reg_mux_imem.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity reg_mux_imem
+-- Compiling architecture arc_reg_mux_imem of reg_mux_imem
+
+} {} {}} D:/Dropbox/prg/sub2ind.vhd {1 {vcom -work work -2002 -explicit D:/Dropbox/prg/sub2ind.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity sub2ind
+-- Compiling architecture arc_sub2ind of sub2ind
+
+} {} {}} D:/Dropbox/prg/fixed_pkg_c.vhdl {2 {vcom -work work -2002 -explicit D:/Dropbox/prg/fixed_pkg_c.vhdl
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Compiling package fixed_pkg_c
+-- Loading package MATH_REAL
+-- Compiling package body fixed_pkg_c
+-- Loading package fixed_pkg_c
+** Warning: [3] D:/Dropbox/prg/fixed_pkg_c.vhdl(1469): (vcom-1246) Range 0 downto 1 is null.
+
+** Warning: [3] D:/Dropbox/prg/fixed_pkg_c.vhdl(1470): (vcom-1246) Range 0 downto 1 is null.
+
+** Warning: [3] D:/Dropbox/prg/fixed_pkg_c.vhdl(1471): (vcom-1246) Range 0 downto 1 is null.
+
+** Warning: [3] D:/Dropbox/prg/fixed_pkg_c.vhdl(6887): (vcom-1246) Range 2 to 1 is null.
+
+
+} {} {}} D:/Dropbox/prg/counter.vhd {1 {vcom -work work -2002 -explicit D:/Dropbox/prg/counter.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity counter
+-- Compiling architecture arc_counter of counter
+
+} {} {}} D:/Dropbox/prg/control.vhd {1 {vcom -work work -2002 -explicit D:/Dropbox/prg/control.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity control
+-- Compiling architecture arc_control of control
+
+} {} {}} D:/Dropbox/prg/mem_manager.vhd {1 {vcom -work work -2002 -explicit D:/Dropbox/prg/mem_manager.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Loading package std_logic_textio
+-- Compiling entity mem_manager
+-- Compiling architecture arc_mem_manager of mem_manager
+
+} {} {}} D:/Dropbox/prg/functions.vhd {1 {vcom -work work -2002 -explicit D:/Dropbox/prg/functions.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling package functions
+
+} {} {}} D:/Dropbox/prg/reg_hold_address.vhd {1 {vcom -work work -2002 -explicit D:/Dropbox/prg/reg_hold_address.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity reg_hold_mem_address
+-- Compiling architecture arc_reg_hold_mem_address of reg_hold_mem_address
+
+} {} {}} D:/Dropbox/prg/alu.vhd {1 {vcom -work work -2002 -explicit {D:\Dropbox\prg\alu.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Loading package functions
+-- Loading package fixed_pkg_c
+-- Compiling entity alu
+-- Compiling architecture arc_alu of alu
+
+} {} {}} D:/Dropbox/prg/CLOCK.VHD {1 {vcom -work work -2002 -explicit D:/Dropbox/prg/CLOCK.VHD
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity clock
+-- Compiling architecture behaviour of clock
+
+} {} {}} D:/Dropbox/prg/main.vhd {1 {vcom -work work -2002 -explicit {D:\Dropbox\prg\main.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Loading package functions
+-- Compiling entity main
+-- Compiling architecture arc_main of main
+
+} {} {}} D:/Dropbox/prg/reg_hold_data.vhd {1 {vcom -work work -2002 -explicit D:/Dropbox/prg/reg_hold_data.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity reg_hold_data
+-- Compiling architecture arc_reg_hold_data of reg_hold_data
+
+} {} {}} D:/Dropbox/prg/mux_mem_mgr.vhd {1 {vcom -work work -2002 -explicit D:/Dropbox/prg/mux_mem_mgr.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity mux_mem_mgr
+-- Compiling architecture arc_mux_mem_mgr of mux_mem_mgr
+
+} {} {}} D:/Dropbox/prg/mux_mem_address.vhd {1 {vcom -work work -2002 -explicit D:/Dropbox/prg/mux_mem_address.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity mux_mem_address
+-- Compiling architecture arc_mux_mem_address of mux_mem_address
+
+} {} {}} D:/Dropbox/prg/reg.vhd {1 {vcom -work work -2002 -explicit D:/Dropbox/prg/reg.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity reg
+-- Compiling architecture arc_reg of reg
+
+} {} {}} D:/Dropbox/prg/reg_lsr.vhd {1 {vcom -work work -2002 -explicit D:/Dropbox/prg/reg_lsr.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity reg_lsr
+-- Compiling architecture arc_reg_lsr of reg_lsr
+
+} {} {}} D:/Dropbox/prg/mux_base_addr.vhd {1 {vcom -work work -2002 -explicit D:/Dropbox/prg/mux_base_addr.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity mux_base_address
+-- Compiling architecture arc_mux_base_address of mux_base_address
+
+} {} {}} D:/Dropbox/prg/fixed_alg_pkg-body_real.vhdl {2 {vcom -work work -2002 -explicit D:/Dropbox/prg/fixed_alg_pkg-body_real.vhdl
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MATH_REAL
+-- Loading package instance fixed_pkg
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Compiling package body fixed_alg_pkg
+-- Loading package fixed_alg_pkg
+** Warning: [3] D:/Dropbox/prg/fixed_alg_pkg-body_real.vhdl(27): (vcom-1246) Range 0 downto 1 is null.
+
+** Warning: [3] D:/Dropbox/prg/fixed_alg_pkg-body_real.vhdl(28): (vcom-1246) Range 0 downto 1 is null.
+
+
+} {} {}} D:/Dropbox/prg/functions_body.vhd {1 {vcom -work work -2002 -explicit D:/Dropbox/prg/functions_body.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Loading package fixed_pkg_c
+-- Compiling package body functions
+-- Loading package functions
+
+} {} {}} D:/Dropbox/prg/counter_imem.vhd {2 {vcom -work work -2002 -explicit D:/Dropbox/prg/counter_imem.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+** Warning: (vcom-7) Failed to open lock file "D:/Dropbox/prg/work/_lock" in create mode.
+
+Permission denied. (errno = EACCES)
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity counter_imem
+-- Compiling architecture arc_counter_imem of counter_imem
+
+} {} {}} D:/Dropbox/prg/mux_done.vhd {1 {vcom -work work -2002 -explicit D:/Dropbox/prg/mux_done.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity mux_done
+-- Compiling architecture arc_mux_done of mux_done
+
+} {} {}} D:/Dropbox/prg/definitions.vhdl {1 {vcom -work work -2002 -explicit {D:\Dropbox\prg\definitions.vhdl}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling package definitions
+
+} {} {}} D:/Dropbox/prg/reg_hold_jump_adress.vhd {1 {vcom -work work -2002 -explicit D:/Dropbox/prg/reg_hold_jump_adress.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity reg_hold_jump_address
+-- Compiling architecture arc_reg_hold_jump_address of reg_hold_jump_address
+
+} {} {}} D:/Dropbox/prg/mux_tc.vhd {1 {vcom -work work -2002 -explicit D:/Dropbox/prg/mux_tc.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity mux_tc
+-- Compiling architecture arc_mux_tc of mux_tc
+
+} {} {}} D:/Dropbox/prg/fixed_alg_pkg.vhdl {1 {vcom -work work -2002 -explicit D:/Dropbox/prg/fixed_alg_pkg.vhdl
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package fixed_float_types
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Compiling package fixed_alg_pkg
+
+} {} {}} D:/Dropbox/prg/stim_main.vhd {1 {vcom -work work -2002 -explicit D:/Dropbox/prg/stim_main.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Loading package fixed_pkg_c
+-- Compiling entity stim_main
+-- Compiling architecture arc_stim_main of stim_main
+
+} {} {}} D:/Dropbox/prg/mux_imem.vhd {1 {vcom -work work -2002 -explicit D:/Dropbox/prg/mux_imem.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity mux_imem
+-- Compiling architecture arc_mux_imem of mux_imem
+
+} {} {}} D:/Dropbox/prg/mux_counter.vhd {1 {vcom -work work -2002 -explicit D:/Dropbox/prg/mux_counter.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity mux_counter
+-- Compiling architecture arc_mux_counter of mux_counter
+
+} {} {}} D:/Dropbox/prg/memory.vhd {2 {vcom -work work -2002 -explicit D:/Dropbox/prg/memory.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Loading package std_logic_textio
+-- Compiling entity memory
+-- Compiling architecture arc_memory of memory
+** Warning: D:/Dropbox/prg/memory.vhd(37): (vcom-1194) FILE declaration was written using VHDL 1987 syntax.
+
+
+} {} {}} D:/Dropbox/prg/mux_data.vhd {1 {vcom -work work -2002 -explicit D:/Dropbox/prg/mux_data.vhd
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package instance fixed_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package definitions
+-- Loading package fixed_alg_pkg
+-- Compiling entity mux_data
+-- Compiling architecture arc_mux_data of mux_data
+
+} {} {}}
